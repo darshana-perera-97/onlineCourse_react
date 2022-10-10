@@ -1,4 +1,5 @@
 import React from "react";
+import CompanyBar from "./CompanyBar/CompanyBar";
 import TextArea from "./TextArea/TextArea";
 import TopBar from "./TopBar/TopBar";
 
@@ -7,6 +8,7 @@ export default function Design() {
     <div>
       <TopBar />
       <TextArea />
+      <CompanyBar />
     </div>
   );
 }
